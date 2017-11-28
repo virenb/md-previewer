@@ -2,4 +2,8 @@
   margin-top: 25px; }
 
 textarea {
-  resize: none; }
+  resize: none;
+  border: 3px solid; }
+
+.msg {
+  margin-top: 50px; }
