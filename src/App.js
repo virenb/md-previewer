@@ -27,7 +27,7 @@ class App extends Component {
           </div>
           <div className='col-xs-6' dangerouslySetInnerHTML={{ __html:marked(this.state.data) }}></div>
         </div>
-        <div className='text-center msg'>Here is a helpful <a href='https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet' target='_blank'>cheatsheet</a> for Markdown syntx via <a href='https://github.com/adam-p' target='_blank'>adam-p</a>.</div>         
+        <div className='text-center msg'>Here is a helpful <a href='https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet' target='_blank' rel='noopener noreferrer'>cheatsheet</a> for Markdown syntax via <a href='https://github.com/adam-p' target='_blank' rel='noopener noreferrer'>adam-p</a>.</div>         
       </div>
     )
   }
